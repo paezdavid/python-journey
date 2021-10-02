@@ -1,7 +1,14 @@
 # python-journey
+
+* [Week 1](#week-1)
+* [Week 2](#week-2)
+
+
 I started learning Python on September 2021. This repository contains everything I've been learning every week since then.
 I already had a background in programming, which really helped me understand the core concepts of a new programming language.
+
 Materials I used to learn were the FreeCodeCamp Youtube channel, the book Automating The Boring Stuff with Python (AtBSwP) and, of course, lots and lots of documentation reading.
+
 I'll try to update this repo every day so I could see the exponential progress I make and I hope one day the repo becomes a reference material for those who, as I am now, might start learning Python.
 
 English is not my first language and I'm still in the process of learning it. If this readme has any grammatical errors, feel free to correct me.
