@@ -40,13 +40,17 @@ back to a string. This was a verbose approach, though. What lead me to the final
 In an elegant way, that solved the process previously mentioned.
 
 
+[Reversed Guess The Number](Week%201/reversedGuessTheNumber.py) is a program that prompts the computer to guess the number that the user inputs. Inside a try block, the programs asks the user for a number between 1 and 20. The computer has 6 attempts to guess the number, and we handle this turns system with the help of a while loop. Inside the while loop, the computer chooses a random number and compares it to the number that the user passed. If the computer doesn't guess the number after 6 attempts the while loop breaks and the program finishes. If the computer does guess the number the program tells us how many attempts the computer needed to guess it.
+If the user inputs any data type that is not a number, the program stops running after executing the catch block.
 
 
+[Word Counter](Week%201/wordCounter.py) is a super simple program that counts the amount of words and characters a given block of text has. Using the pyperclip module, the user just need to copy a chunk of text and run the program. The program splits the string into a list, and with the len() function we already know how many words and characters there are on the text. 
 
 
+## Week 2
 
-
-
+[Email and Phone Number Regex](Week%202/email_number_regex.py) was my first ever regex project. What the program basically does is analyze a chunk of text and extract all the emails and phone numbers inside it. I used the Paraguayan phone number system for this [(0000) 111-222].
+The program have three functions: one to find emails, another to find phone numbers, and a final one that uses the two and returns the final result. The two first return lists with the emails and numbers that were found. If the program didn't find anything, the functions return lists with an empty string.  But if the program did find something, the final function will blend the two returned lists into one and then return a string with the results. 
 
 
 
