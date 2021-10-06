@@ -10,7 +10,6 @@ if response.status_code != 200:
     print("No definitions found")
 else:
     for i in range(len(json_response[0]["meanings"])):
-        # print(f"Part of Speech: ", json_response[0]["meanings"])
         print(
             {i + 1},
             f"PART OF SPEECH:",
